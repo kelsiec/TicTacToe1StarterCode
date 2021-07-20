@@ -1,10 +1,6 @@
 public class Board {
-    private static final int EMPTY = -1;
-    private static final int O = 0;
-    private static final int X = 1;
-
-    private int[][] board;
-    private int whoseTurn = X;
+    private char[][] board;
+    private char whoseTurn = 'X';
 
     public Board() {
         // TODO: Initialize the 3x3 board to all empty values
@@ -26,20 +22,8 @@ public class Board {
          */
     }
 
-    public String whichPlayer() {
-        /*
-        Public wrapper for whichPlayer(int value), since
-        users don't have the integer value of the current player
-        Pass along whoseTurn to the overloaded function
-         */
-        return "";
-    }
-
-    private String whichPlayer(int value) {
-        /*
-        TODO: Convert the integer value of the player to a readable string
-        0 => "O", 1 => "X", -1 is empty
-         */
+    public char whichPlayer() {
+        // TODO return whose turn it is
         return "";
     }
 
