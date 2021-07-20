@@ -12,7 +12,7 @@ public class Board {
     }
 
     public void switchActivePlayer() {
-        // TODO: If whoseTurn is X make it Y, and vice versa
+        // TODO: If whoseTurn is X make it O, and vice versa
     }
 
     public void placeToken(int i, int j) {
