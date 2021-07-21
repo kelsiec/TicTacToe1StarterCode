@@ -24,7 +24,7 @@ public class Board {
 
     public char whichPlayer() {
         // TODO return whose turn it is
-        return '';
+        return ' ';
     }
 
     public String toString() {
